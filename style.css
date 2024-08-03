@@ -1,0 +1,107 @@
+@font-face {
+    font-family: AppleGaramond;
+    src: url("fonts/AppleGaramond.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: Dailyfully;
+    src: url("fonts/Dailyfully.otf") format("opentype");
+}
+
+:root {
+    --primary-color: #404605;
+    --primary-color-hover: #c4c5b1;
+    --base-color: #E7E5DA;
+}
+
+* {
+    font-family: serif;
+    color: var(--primary-color);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-height: fit-content;
+}
+
+body {
+    background-color: var(--base-color);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header .container{
+    display: flex;
+    padding-top: 1rem;
+}
+
+header h1 {
+    font-family: Dailyfully, serif;
+    font-size: 4rem;
+    max-height: 4.5rem;
+}
+
+header h2 {
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.brand {
+    max-width: fit-content;
+}
+
+nav {
+    padding-left: 4rem;
+    margin-top: 2rem;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+nav ul li a{
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: white;
+    background-color: black;
+    text-decoration: line-through;
+}
+
+.banner .container {
+    margin-top: 5rem;
+    display: flex;
+}
+
+.banner img {
+    border: 2px black solid;
+}
+
+.banner article  {
+    min-width: 35rem;
+    max-height: 30rem;
+    margin-left: 5rem;
+    /*border: 1px blue solid;*/
+}
+.banner article p {
+    font-size: 2.0rem;
+}
+
+.home-about {
+    background-color: var(--primary-color);
+    margin-top: 15rem;
+    padding: 10rem 0;
+}
+
+.home-about p {
+    color: var(--base-color);
+    font-size: 1.8rem;
+}
+
