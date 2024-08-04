@@ -107,3 +107,57 @@ nav ul li a:hover {
     font-size: 1.8rem;
 }
 
+/* sobre nós*/
+
+.sobre-nos {
+    display: flex;
+}
+
+.nos {
+    display: flex;
+}
+
+.nos img {
+    width: 200px;
+}
+
+.anna {
+    display: flex;
+    flex-direction: column;
+    translate: 200px 60px;
+}
+
+h3 {
+    font-size: 30px;
+    width: 200px;
+    font-family: Dailyfully, serif;
+}
+
+.anna p {
+    width: 200px;
+}
+
+.otavio {
+    display: flex;
+    flex-direction: column;
+    translate: 290px 225px;
+}
+
+.otavio p {
+    width: 200px;
+}
+
+.baile img {
+    width: 250px;
+    translate: -130px 20px;
+}
+
+.eye img {
+    width: 100%;
+    translate: 450px 150px;
+}
+
+.flor img {
+    width: 250px;
+    translate: -80px 380px;
+}
