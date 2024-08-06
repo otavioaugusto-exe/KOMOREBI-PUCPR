@@ -1,0 +1,15 @@
+@font-face {
+    font-family: AppleGaramond;
+    src: url("fonts/AppleGaramond.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: Dailyfully;
+    src: url("fonts/Dailyfully.otf") format("opentype");
+}
+
+:root {
+    --primary-color: #404605;
+    --primary-color-hover: #c4c5b1;
+    --base-color: #E7E5DA;
+}
