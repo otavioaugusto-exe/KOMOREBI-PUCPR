@@ -49,11 +49,10 @@ article.segunda-frase p {
 }
 
 article.voltar-home a {
+    width: 330px;
     font-size: 35px;
-    width: 500px;
-    min-width: 200px;
-    translate: -1200px 700px;
     text-decoration: none;
+    translate: -1245px 660px;
 }
 
 article.voltar-home a:hover {
