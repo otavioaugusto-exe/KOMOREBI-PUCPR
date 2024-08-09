@@ -124,6 +124,8 @@ article .fifth-paragraph {
 }
 
 section.contact {
+    display: flex;
+    align-items: center;
     justify-content: center;
     background: var(--primary-color);
     height: 100vh;
