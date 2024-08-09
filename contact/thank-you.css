@@ -3,12 +3,10 @@ html, body {
     height: 100vh;
 }
 
-section {
+.container {
     display: flex;
-}
-
-figure {
-    display: flex;
+    padding: 0;
+    margin: 0;
 }
 .criancas img {
     width: 540px;
@@ -33,11 +31,6 @@ figure {
     width: 120px;
     min-width: 100px;
     translate: -550px 180px;
-}
-
-article {
-    display: flex;
-    flex-direction: column;
 }
 
 article.fonte-diferente p {

@@ -21,13 +21,13 @@
                         <li><a href="#">catálogo</a></li>
                         <li><a href="#">história</a></li>
                         <li><a href="#">ateliês</a></li>
-                        <li><a href="../about-us/sobre-nos.html">sobre nós</a></li>
-                        <li><a href="contato.html">contato</a></li>
+                        <li><a href="../about-us/about-us.html">sobre nós</a></li>
+                        <li><a href="contact.html">contato</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
-        <section class="texto">
+        <section class="container">
             <figure class="tv">
                 <img src="assets/idk.jpeg" alt="imagem de uma televisão antiga com um homem e uma câmera dentro dela">
             </figure>
@@ -76,12 +76,14 @@
             id="form"
             method="post"
             enctype="text/plain"
-            action="agradecimento.html">
-            <label>nome: <input type="text" name="nome" id="nome" placeholder="Digite o seu nome" required></label>
-            <label>email: <input type="email" name="email" id="email" placeholder="Digite o seu email" required></label>
-            <label>telefone: <input type="number" name="telefone" id="telefone" placeholder="Digite o seu telefone"></label>
-            <label>mensagem: <textarea name="mensagem" id="mensagem" rows="7" placeholder="Digite a sua mensagem" required ></textarea></label>
-            <button type="submit">enviar</button>
+            action="../contact/thank-you.html">
+            <section class="texto container">
+                <label>nome: <input type="text" name="nome" id="nome" placeholder="Digite o seu nome" required></label>
+                <label>email: <input type="email" name="email" id="email" placeholder="Digite o seu email" required></label>
+                <label>telefone: <input type="number" name="telefone" id="telefone" placeholder="Digite o seu telefone"></label>
+                <label>mensagem: <textarea name="mensagem" id="mensagem" rows="7" placeholder="Digite a sua mensagem" required ></textarea></label>
+                <button type="submit">enviar</button>
+            </section>
         </form>
     </section>
 </body>
