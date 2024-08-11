@@ -1,0 +1,204 @@
+* {
+    outline: none;
+}
+
+#order-form {
+    margin-top: 5vh;
+}
+
+#order-form .container{
+    display: flex;
+}
+
+input[type="text"], input[type="email"], #order-form select, #order-form textarea, button {
+    border-radius: 8px;
+    margin-top: 2vh;
+    width: 100%;
+    padding: 1.2vh 1vw;
+    appearance: none;
+    background-color: var(--base-color);
+    border: 1px solid var(--primary-color);
+    font-size: 1rem;
+    text-align: left;
+    resize: none;
+}
+
+#order-form textarea {
+    padding-bottom: 11vh;
+}
+
+#order-form button {
+    width: 100%;
+    font-family: Dailyfully, serif;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--base-color);
+}
+
+#order-form button:hover {
+    color: white;
+    text-decoration: line-through;
+    font-style: italic;
+    background-color: black;
+}
+
+#order-form button:target {
+    color: var(--primary-color);
+    background-color: var(--primary-color-hover);
+}
+
+#order-form label, #order-form h3 {
+    font-size: 1.5rem;
+    font-family: serif;
+    font-weight: lighter;
+}
+
+#order-form .checkbox-komo label, #order-form .radio-komo label {
+    font-size: 1.1rem;
+}
+
+#order-form h2 {
+    font-family: Dailyfully, serif;
+    font-weight: lighter;
+    font-size: 2.5rem;
+    margin-bottom: 1.5vh;
+}
+
+#order-form h3 {
+    margin-bottom: 2vh;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-block {
+    max-width: 45vw;
+    min-width: min-content;
+    margin-bottom: 6vh;
+    /*border: 1px solid blueviolet;*/
+}
+
+.form-block input, .form-block textarea, .form-block select {
+    display: block;
+}
+
+.input-komo {
+    width: 15vw;
+    height: 20vh;
+    min-width: max-content;
+    margin-right: 5vw;
+    /*border: 1px solid green;*/
+}
+
+.bottom {
+    margin-bottom: 5vh;
+}
+
+/*Seta dos campos dropdown*/
+.custom-select {
+    position: relative;
+}
+.custom-select::before, .custom-select::after {
+    --size: 0.3rem;
+    position: absolute;
+    content: "";
+    right: 1rem;
+    pointer-events: none;
+}
+
+.custom-select::before {
+    border-left: var(--size) solid transparent;
+    border-right: var(--size) solid transparent;
+    border-bottom: var(--size) solid black;
+    top: 40%;
+}
+
+.custom-select::after {
+    border-left: var(--size) solid transparent;
+    border-right: var(--size) solid transparent;
+    border-top: var(--size) solid black;
+    top: 55%;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    appearance: none;
+    padding: 0.8vw;
+    min-width: 30px;
+    aspect-ratio: 1/1;
+    border: 1px var(--primary-color) solid;
+    position: relative;
+}
+
+input[type="checkbox"] {
+    border-radius: 8px;
+}
+
+input[type="radio"] {
+    border-radius: 100px;
+}
+
+input[type="checkbox"]:checked::after, input[type="radio"]:checked::after {
+    position: absolute;
+    color: var(--primary-color);
+}
+
+input[type="checkbox"]:checked::after {
+    top: 0.4vw;
+    left: 0.5vw;
+    font-size: 1rem;
+    content: '\2713';
+}
+
+input[type="radio"]:checked::after {
+    top: -0.2vw;
+    left: 0.12vw;
+    font-size: 1.5rem;
+    content: '\25C9';
+}
+
+.checkbox-komo, .radio-komo {
+    display: flex;
+    margin-bottom: 2vh;
+    align-items: center;
+    min-width: max-content;
+}
+
+.checkbox-komo input, .radio-komo input {
+    margin-right: 1.2vw;
+}
+
+.museum {
+    min-width: fit-content;
+}
+
+.photos-group{
+    position: relative;
+    width: 25vw;
+    text-align: center;
+}
+
+.photos-group img {
+    max-width: 11vw;
+    min-width: 150px;
+    border: 1px var(--primary-color) solid;
+}
+
+.pht-1 {
+    position: absolute;
+    right: 0;
+    z-index: 2;
+}
+
+.pht-2 {
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+.pht-3 {
+    margin-top: 20vh;
+    z-index: 1;
+}
