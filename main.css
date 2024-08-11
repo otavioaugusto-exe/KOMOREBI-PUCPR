@@ -138,6 +138,7 @@ h3 {
 
 .eye img {
     width: 100%;
+    min-width: 30rem;
     translate: 450px 150px;
 }
 

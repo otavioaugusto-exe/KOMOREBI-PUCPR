@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>komorebi 木漏れ日</title>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../theme.css">
+    <link rel="stylesheet" href="catalog-style.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="brand">
+            <h1>komorebi</h1>
+            <h2>木漏れ日</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">home</a></li>
+                <li><a href="/catalog/catalog.html">catálogo</a></li>
+                <li><a href="#">história</a></li>
+                <li><a href="#">ateliês</a></li>
+                <li><a href="/about-us/about-us.html">sobre nós</a></li>
+                <li><a href="../contact/contact.html">contato</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<section id="order-form">
+    <div class="container">
+        <form
+                name="form"
+                id="form"
+                method="post"
+                enctype="text/plain"
+                action="">
+            <div class="form-block">
+                <!--            conteúdo do header...-->
+                <h2>informações pessoais</h2>
+                <div class="container flex">
+                    <div class="input-komo">
+                        <label for="form-name">nome completo</label>
+                        <input type="text" name="name" id="form-name">
+                    </div>
+                    <div class="input-komo">
+                        <label for="form-email">e-mail</label>
+                        <input type="email" name="email" id="form-email">
+                    </div>
+                </div>
+            </div>
+            <div class="form-block">
+                <h2>descreva seu sonho</h2>
+                <div class="container flex">
+                    <div class="input-komo">
+                        <label for="form-design-name">nomeie sua peça</label>
+                        <input type="text" name="design-name" id="form-design-name">
+                    </div>
+                    <div class="input-komo bottom">
+                        <label for="form-clothing-type">escolha sua peça:</label>
+                        <div class="custom-select">
+                            <select id="form-clothing-type" name="clothing-type">
+                                <option value="0">Camisa</option>
+                                <option value="1">Tricot</option>
+                                <option value="2">Saia</option>
+                                <option value="3">Calça</option>
+                                <option value="4">Vestido</option>
+                                <option value="5">Jaqueta</option>
+                                <option value="8">Casaco</option>
+                                <option value="9">Blazer</option>
+                                <option value="10">Cardigan</option>
+                                <option value="11">Trench Coat</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="input-komo bottom ">
+                        <h3>cores da sua peça</h3>
+                        <div class="checkbox-komo">
+                            <input type="checkbox" name="color-type" id="form-color-0" value="0">
+                            <label for="form-color-0">Verde-Musgo</label>
+                        </div>
+                        <div class="checkbox-komo">
+                            <input type="checkbox" name="color-type" id="form-color-1" value="1">
+                            <label for="form-color-1">Azul-Marinho</label>
+                        </div>
+                        <div class="checkbox-komo">
+                            <input type="checkbox" name="color-type" id="form-color-2" value="2">
+                            <label for="form-color-2">Bordô</label>
+                        </div>
+                        <div class="checkbox-komo">
+                            <input type="checkbox" name="color-type" id="form-color-3" value="3">
+                            <label for="form-color-3">Fuchsia Escuro</label>
+                        </div>
+                    </div>
+                    <div class="input-komo">
+                        <h3>tecido de sua peça</h3>
+                        <div class="radio-komo">
+                            <input type="radio" name="cloth-type" id="form-cloth-type-0" value="0">
+                            <label for="form-cloth-type-0">Algodão</label>
+                        </div>
+                        <div class="radio-komo">
+                            <input type="radio" name="cloth-type" id="form-cloth-type-1" value="1">
+                            <label for="form-cloth-type-1">Lã Merino</label>
+                        </div>
+                        <div class="radio-komo">
+                            <input type="radio" name="cloth-type" id="form-cloth-type-2" value="2">
+                            <label for="form-cloth-type-2">Cashmere</label>
+                        </div>
+                        <div class="radio-komo">
+                            <input type="radio" name="cloth-type" id="form-cloth-type-3" value="3">
+                            <label for="form-cloth-type-3">Seda</label>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="form-block">
+                <h2>medidas corporais em centímetros</h2>
+                <div class="container flex">
+                    <div class="input-komo bottom">
+                        <label for="form-height">Altura</label>
+                        <input type="text" name="height" id="form-height">
+                    </div>
+                    <div class="input-komo bottom">
+                        <label for="form-arms">Braços</label>
+                        <input type="text" name="arms" id="form-arms">
+                    </div>
+                    <div class="input-komo bottom">
+                        <label for="form-waist">Cintura</label>
+                        <input type="text" name="waist" id="form-waist">
+                    </div>
+                    <div class="input-komo bottom">
+                        <label for="form-thigh">Coxa</label>
+                        <input type="text" name="thigh" id="form-thigh">
+                    </div>
+                    <div class="input-komo bottom">
+                        <label for="form-hips">Quadril</label>
+                        <input type="text" name="hips" id="form-hips">
+                    </div>
+                    <div class="input-komo bottom">
+                        <label for="form-bust">Busto</label>
+                        <input type="text" name="name" id="form-bust">
+                    </div>
+                </div>
+            </div>
+            <div class="form-block">
+                <h2>desenhos da peça</h2>
+                <div class="container flex">
+                    <div class="input-komo bottom ">
+                        <h3>Florais</h3>
+                        <div class="checkbox-komo">
+                            <input type="checkbox" name="florais-type" id="form-florais-0" value="romantico">
+                            <label for="form-florais-0">Romântico</label>
+                        </div>
+                        <div class="checkbox-komo">
+                            <input type="checkbox" name="florais-type" id="form-florais-1" value="tropical">
+                            <label for="form-florais-1">Tropical</label>
+                        </div>
+                        <div class="checkbox-komo">
+                            <input type="checkbox" name="florais-type" id="form-florais-2" value="vintage">
+                            <label for="form-florais-2">Vintage</label>
+                        </div>
+                        <div class="checkbox-komo">
+                            <input type="checkbox" name="florais-type" id="form-florais-3" value="delicado">
+                            <label for="form-florais-3">Delicado</label>
+                        </div>
+                    </div>
+
+                    <div class="input-komo bottom">
+                        <h3>Ousado</h3>
+                        <div class="checkbox-komo">
+                            <input type="checkbox" name="ousado-type" id="form-ousado-0" value="futurista">
+                            <label for="form-ousado-0">Futurista</label>
+                        </div>
+                        <div class="checkbox-komo">
+                            <input type="checkbox" name="ousado-type" id="form-ousado-1" value="color-block">
+                            <label for="form-ousado-1">Color Block</label>
+                        </div>
+                        <div class="checkbox-komo">
+                            <input type="checkbox" name="ousado-type" id="form-ousado-2" value="pop-art">
+                            <label for="form-ousado-2">Pop Art</label>
+                        </div>
+                        <div class="checkbox-komo">
+                            <input type="checkbox" name="ousado-type" id="form-ousado-3" value="abstrata">
+                            <label for="form-ousado-3">Abstrata</label>
+                        </div>
+                    </div>
+
+                    <div class="input-komo bottom">
+                        <h3>Antique</h3>
+                        <div class="checkbox-komo">
+                            <input type="checkbox" name="antique-type" id="form-antique-0" value="vitorianas">
+                            <label for="form-antique-0">Vitorianas</label>
+                        </div>
+                        <div class="checkbox-komo">
+                            <input type="checkbox" name="antique-type" id="form-antique-1" value="barroco">
+                            <label for="form-antique-1">Barroco</label>
+                        </div>
+                        <div class="checkbox-komo">
+                            <input type="checkbox" name="antique-type" id="form-antique-2" value="rococo">
+                            <label for="form-antique-2">Rococó</label>
+                        </div>
+                        <div class="checkbox-komo">
+                            <input type="checkbox" name="antique-type" id="form-antique-3" value="art-nouveau">
+                            <label for="form-antique-3">Art Nouveau</label>
+                        </div>
+                    </div>
+                    <div class="input-komo bottom">
+                        <h3>defina sua criação em uma mensagem</h3>
+                        <textarea name="clothing-message" id="form-clothing-message"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="form-block btn">
+                <button type="submit">Finalizar Criação</button>
+            </div>
+        </form>
+        <section class="museum">
+            <div class="photos-group">
+                <img class="pht-1" src="assets/catalog-1.jpg" alt="">
+                <img class="pht-2" src="assets/catalog-2.jpg" alt="">
+                <img class="pht-3" src="assets/catalog-3.jpg" alt="">
+            </div>
+            <div class="photos-group">
+                <img class="pht-1" src="assets/catalog-16.jpg" alt="">
+                <img class="pht-2" src="assets/catalog-5.jpg" alt="">
+                <img class="pht-3" src="assets/catalog-6.jpg" alt="">
+            </div>
+            <div class="photos-group">
+                <img class="pht-1" src="assets/catalog-7.jpg" alt="">
+                <img class="pht-2" src="assets/catalog-8.jpg" alt="">
+                <img class="pht-3" src="assets/catalog-9.jpg" alt="">
+            </div>
+            <div class="photos-group">
+                <img class="pht-1" src="assets/catalog-10.jpg" alt="">
+                <img class="pht-2" src="assets/catalog-15.jpg" alt="">
+                <img class="pht-3" src="assets/catalog-14.jpg" alt="">
+            </div>
+        </section>
+    </div>
+</section>
+</body>
+</html>
