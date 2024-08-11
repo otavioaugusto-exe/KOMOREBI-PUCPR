@@ -28,7 +28,8 @@ input[type="text"], input[type="email"], #order-form select, #order-form textare
 }
 
 #order-form button {
-    width: 100%;
+    width: 80%;
+    margin-right: 5vw;
     font-family: Dailyfully, serif;
     font-size: 1.2rem;
     text-align: center;
@@ -46,6 +47,10 @@ input[type="text"], input[type="email"], #order-form select, #order-form textare
 #order-form button:target {
     color: var(--primary-color);
     background-color: var(--primary-color-hover);
+}
+
+#order-form .form-block.btn {
+    text-align: center;
 }
 
 #order-form label, #order-form h3 {
@@ -101,6 +106,7 @@ input[type="text"], input[type="email"], #order-form select, #order-form textare
 .custom-select {
     position: relative;
 }
+
 .custom-select::before, .custom-select::after {
     --size: 0.3rem;
     position: absolute;
