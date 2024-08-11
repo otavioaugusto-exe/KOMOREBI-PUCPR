@@ -1,0 +1,66 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.criancas img {
+    width: 540px;
+    min-width: 300px;
+    translate: 150px 250px;
+    z-index: -1;
+}
+
+.flor-1 img {
+    width: 250px;
+    min-width: 100px;
+    translate: -30px 130px;
+}
+
+.flor-2 img {
+    width: 200px;
+    min-width: 100px;
+    translate: -550px 530px;
+}
+
+.flor-3 img {
+    width: 120px;
+    min-width: 100px;
+    translate: -550px 180px;
+}
+
+article.fonte-diferente p {
+    font-family: Dailyfully, serif;
+    font-size: 65px;
+    width: 500px;
+    min-width: 100px;
+    translate: -340px 400px;
+}
+
+article.segunda-frase p {
+    font-size: 35px;
+    width: 700px;
+    min-width: 100px;
+    translate: -860px 490px;
+}
+
+article.voltar-home a {
+    width: 330px;
+    font-size: 35px;
+    text-decoration: none;
+    translate: -1245px 660px;
+}
+
+article.voltar-home a:hover {
+    text-align: center;
+    text-decoration: underline;
+    color: var(--base-color);
+    background-color: var(--primary-color);
+    width: 330px;
+    border-radius: 15px;
+}
+
