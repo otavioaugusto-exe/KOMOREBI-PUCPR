@@ -40,11 +40,11 @@
                 <div class="container flex">
                     <div class="input-komo">
                         <label for="form-name">nome completo</label>
-                        <input type="text" name="name" id="form-name">
+                        <input required type="text" name="name" id="form-name">
                     </div>
                     <div class="input-komo">
                         <label for="form-email">e-mail</label>
-                        <input type="email" name="email" id="form-email">
+                        <input required type="email" name="email" id="form-email">
                     </div>
                 </div>
             </div>
@@ -53,12 +53,12 @@
                 <div class="container flex">
                     <div class="input-komo">
                         <label for="form-design-name">nomeie sua peça</label>
-                        <input type="text" name="design-name" id="form-design-name">
+                        <input required type="text" name="design-name" id="form-design-name">
                     </div>
                     <div class="input-komo bottom">
                         <label for="form-clothing-type">escolha sua peça:</label>
                         <div class="custom-select">
-                            <select id="form-clothing-type" name="clothing-type">
+                            <select required id="form-clothing-type" name="clothing-type">
                                 <option value="0">Camisa</option>
                                 <option value="1">Tricot</option>
                                 <option value="2">Saia</option>
@@ -118,27 +118,27 @@
                 <div class="container flex">
                     <div class="input-komo bottom">
                         <label for="form-height">Altura</label>
-                        <input type="text" name="height" id="form-height">
+                        <input required inputmode="numeric" type="text" name="height" id="form-height">
                     </div>
                     <div class="input-komo bottom">
                         <label for="form-arms">Braços</label>
-                        <input type="text" name="arms" id="form-arms">
+                        <input required inputmode="numeric" type="text" name="arms" id="form-arms">
                     </div>
                     <div class="input-komo bottom">
                         <label for="form-waist">Cintura</label>
-                        <input type="text" name="waist" id="form-waist">
+                        <input required inputmode="numeric" type="text" name="waist" id="form-waist">
                     </div>
                     <div class="input-komo bottom">
                         <label for="form-thigh">Coxa</label>
-                        <input type="text" name="thigh" id="form-thigh">
+                        <input required inputmode="numeric" type="text" name="thigh" id="form-thigh">
                     </div>
                     <div class="input-komo bottom">
                         <label for="form-hips">Quadril</label>
-                        <input type="text" name="hips" id="form-hips">
+                        <input required inputmode="numeric" type="text" name="hips" id="form-hips">
                     </div>
                     <div class="input-komo bottom">
                         <label for="form-bust">Busto</label>
-                        <input type="text" name="name" id="form-bust">
+                        <input required inputmode="numeric" type="text" name="bust" id="form-bust">
                     </div>
                 </div>
             </div>
@@ -206,7 +206,7 @@
                     </div>
                     <div class="input-komo bottom">
                         <h3>defina sua criação em uma mensagem</h3>
-                        <textarea name="clothing-message" id="form-clothing-message"></textarea>
+                        <textarea required name="clothing-message" id="form-clothing-message"></textarea>
                     </div>
                 </div>
             </div>
